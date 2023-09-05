@@ -1,0 +1,149 @@
+.player{
+    bottom: 0;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: var(--black);
+  gap: 1rem;
+  overflow-y: auto;
+  height: 90vh;
+  padding: 0.8rem;
+}
+.main-content{
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+}
+.main-content{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.icon-links {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.8;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 2px;
+  }
+  .icon-links:hover {
+    opacity: 1;
+    background-color: var(--light-grey);
+  }
+  .home-link{
+    opacity: 1;
+    background-color: var(--light-grey);
+  }
+  .icon-links img {
+    width: 20px;
+    height: 20px;
+  }
+  .pl-list-img {
+    height: 30px;
+    width: 30px;
+  }
+  .album-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .playlist-top{
+    display: flex;
+    align-items:last baseline;
+  }
+
+  /* main css */
+  .main-content-1 {
+
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #90AEA7 0%, black 70%);
+    width: 100%;
+    height: 100vh;
+    overflow-x: auto;
+    padding-bottom: 6rem;
+}
+
+.albums {
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    gap: 100rem;
+}
+
+.sidebar-img {
+    position: sticky;
+    bottom: 95px;
+    width: 100%;
+    height: 30%;
+}
+
+.albums img {
+    width: 100%;
+}
+
+.side-wrap {
+    margin-left: 1.4rem;
+}
+
+.library {
+    padding: 0;
+}
+
+.text-r1 {
+    opacity: 0.6;
+    color: var(--white);
+    word-wrap: break-word;
+}
+
+.playlist-heading {
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    word-wrap: break-word
+}
+
+.lower {
+    padding: 5rem;
+    background-color: #00000038;
+}
+
+.playlist-icon img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.grid-item-1 {
+    width: 200px;
+}
+
+td,
+th {
+    padding: 10px;
+    margin-top: 15px 15px;
+}
+
+th {
+    opacity: 0.6;
+}
+
+tr:hover {
+    background-color: var(--box-grey);
+    transition: all 0.8s ease-out;
+}
+
+
+.profile {
+    display: none;
+}
+ 
+
+
