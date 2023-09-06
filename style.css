@@ -39,7 +39,7 @@ a {
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex: 0.2;
+  flex: 0.22;
   background-color: var(--black);
   gap: 1rem;
   overflow-y: auto;
@@ -48,7 +48,7 @@ a {
 }
 .main-content {
   padding: 1rem;
-  flex: 0.8;
+  flex: 0.78;
   border-radius: 0.5rem;
   background: linear-gradient(
     180deg,
@@ -165,9 +165,9 @@ a {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  gap: 2rem;
+  gap: 1rem;
   height: 80vh;
-  padding: 2rem;
+  padding-left: 2rem;
 }
 .morning-section {
   display: flex;
@@ -358,7 +358,7 @@ margin-block: 4px;
 .playing-on span{
   color: var(--black);
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   margin-right: 5rem;
   margin-left: 5px;

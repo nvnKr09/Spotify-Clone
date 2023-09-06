@@ -87,6 +87,20 @@
     flex-direction: column;
     justify-content:center;
 }
+.headings h1{
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    margin: 0;
+}
+.headings-p2{
+    margin: 0px;
+    color:rgb(176, 176, 176);
+}
+.headings-p1, .headings-p2 span{
+    font-weight: 700;
+    color: var(--white);
+}
 .main-content-2{
     padding: 1.5rem 2rem;
     width: 100%;
@@ -101,70 +115,7 @@
 .play-fav-more img{
     cursor: pointer;
 }
-/* table{
-    width: 100%;
-}
-table,td,th{
-    border-collapse: collapse;
-}
-.row-data{
-    margin-top: 10px;
-}
-.col-num{
-    width: 5%;
-}
-.col-title{
-    width: 25%;
-}
-.col-album{
-    width: 25%;
-}
-.col-date{
-    width: 20%;
-}
-.col-duration{
-    width: 25%;
-}
-.row-head th{
-    color: rgb(176, 176, 176);
-    font-weight: 500;
-    border-bottom: 1px solid rgb(103, 103, 103);
-}
-.col-num, .col-date{
-    text-align: center;
-}
-.col-title, .col-album{
-    text-align: start;
-}
-.col-duration{
-    text-align: end;
-    padding-right: 10px;
-}
-.title-data{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.title-data h4{
-    color:rgb(228, 228, 228);
-}
-td{
-    padding-block: 10px;
-    color: rgb(176, 176, 176);
-}
-.title-data h4, .title-data p{
-    margin: 0;
-}
-
-.duration-data{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: end;
-}
-.row-data{
-    background: var(--light-grey);
-} */
+/* songs list */
 .row{
     display: flex;
     width: 100%;
