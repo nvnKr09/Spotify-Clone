@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify - Web Player: Music for everyone</title>
@@ -9,560 +10,322 @@
     <link rel="stylesheet" href="playlist.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="./Assets/logo.png" type="image/x-icon" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="container">
-      <nav class="sidebar">
-        <div class="icon-div">
-          <div class="spotify-logo">
-              <img src="./Assets/Spotify-logo.svg" width="140px" alt="Spotify Logo" />
-          </div>
-          <div>
-            <div class="icon-links home-link">
-              <img src="./Assets/home.png" alt="Home" />
-              <a href="#">Home</a>
-            </div>
-            <div class="icon-links">
-              <img src="./Assets/search.png" alt="Search" />
-              <a href="#">Search</a>
-            </div>
-            <div class="icon-links">
-              <img src="./Assets/library.png" />
-              <p>Your Library</p>
-            </div>
-          </div>
-          <div>
-            <div class="icon-links">
-              <div class="pl-list-img" style=" background-color: #ffffff;">
-              <img src="./Assets/plus.svg">
-              </div>
-              <a href="#">Create Playlist</a>
-            </div>
-            <div class="icon-links">
-              <div class="pl-list-img" style="background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);">
-                <img src="./Assets/heart.svg">
-              </div>
-              <a href="#">Liked Songs</a>
-            </div>
-          </div>
-          <div class="album-pic">
-        <img src="./Assets/album art.png">
-        </div>
-        </div>
-      </nav>
-      <main class="main-content">
-       
-        
-        <main class="main-content-1">
-            <div class="body flex-column d-flex">
-                <div class="upper ps-5 pt-5 mt-2 d-flex">
-                    <div class="d-flex">
-                        <img src="../Icons/pop-rn2.png" alt="no image">
+        <nav class="sidebar">
+            <div class="icon-div">
+                <div class="spotify-logo">
+                    <img src="./Assets/Spotify-logo.svg" width="140px" alt="Spotify Logo" />
+                </div>
+                <div>
+                    <div class="icon-links home-link">
+                        <img src="./Assets/home.png" alt="Home" />
+                        <a href="#">Home</a>
                     </div>
-                    <div class="d-flex flex-column ps-3 justify-content-center align-items-start">
-                        <p class="text-playlist">PLAYLISTS</p>
-                        <h1 class="playlist-heading">Pop Right Now</h1>
-                        <p class="text-r1 m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
-                        <div class="row1 d-flex align-items-center">
-                            <h6 class="fw-bold d-inline m-0">Spotify</h6>
-                            <span class="text-r1 m-0 px-1 d-flex">
-                                <p class="text-r1 px-1 m-0">&#x2022; 860,305 likes</p>
-                                <p class="text-r1 px-1 m-0">&#x2022; 100 songs, 5 hr 5 min</p>
-                            </span>
-                        </div>
+                    <div class="icon-links">
+                        <img src="./Assets/search.png" alt="Search" />
+                        <a href="#">Search</a>
+                    </div>
+                    <div class="icon-links">
+                        <img src="./Assets/library.png" />
+                        <p>Your Library</p>
                     </div>
                 </div>
-
-                <div class="lower d-grid">
-                    <div class="prof d-flex justify-content-between">
-                        <div class="playlist-icon grid-item-1 d-flex gap-3 mb-3">
-                            <img class="padding" src="../Icons/play.png" alt="no image">
-                            <img src="../Icons/heart.svg" alt="no image">
-                            <img src="../Icons/more_big.svg" alt="no image">
+                <div>
+                    <div class="icon-links">
+                        <div class="pl-list-img" style=" background-color: #ffffff;">
+                            <img src="./Assets/plus.svg">
                         </div>
-                        <div class="profile">
-                            <div class="image">
-                                <img src="../Icons/profile.png" width="100%" height="100%" alt="Profile-image">
-                            </div>
-                            <div class="text d-flex justify-conten-center">
-                                <p class="m-0">Angel <img src="../Icons/down.png" alt="down-arrow"></p>
-                            </div>
-                        </div>
+                        <a href="#">Create Playlist</a>
                     </div>
-                    <div class="playlist-table d-flex">
-                        <table class="w-100">
-                            <thead style="border-bottom: 1px solid hsla(0,0%,100%,.1);">
-                                <th class="d-none-">#</th>
-                                <th class="ps-4">TITLE</th>
-                                <th class="d-none- text-center">ALBUM</th>
-                                <th class="d-none- text-center">DATE ADDED</th>
-                                <!-- <th class="text-center"></th> -->
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="d-none-">1</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <img src="../Icons/heart.svg" width="30" alt="heart">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">2</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">3</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">4</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">5</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">6</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">7</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">8</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">9</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">10</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">11</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">12</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">13</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">14</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">15</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">16</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">17</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">18</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">19</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 9.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="d-none-">20</td>
-                                    <td class="flex-dist">
-                                        <div class="player-card">
-                                            <div class="link-flexs">
-                                                <img src="../Icons/Rectangle 20.png" class="album-cover" />
-                                                <div class="col-flex">
-                                                    <p class="album-name">We're Good</p>
-                                                    <p>Dua Lipa</p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="d-none- text-center">Future Nostalgia (The Moonlight Edition)</td>
-                                    <td class="text-center d-none-">2 week ago</td>
-                                    <td class="text-end">
-                                        <span class="d-none- px-2">2:46</span>
-                                        <img src="../Icons/more_big.svg" width="30" alt="more">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="icon-links">
+                        <div class="pl-list-img"
+                            style="background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);">
+                            <img src="./Assets/heart.svg">
+                        </div>
+                        <a href="#">Liked Songs</a>
                     </div>
                 </div>
             </div>
-        </main> 
-        
-        
-        
-        </div>
-      </main>
-      <!-- player section -->
-      <div class="player">
+            <div class="album-pic">
+                <img src="./Assets/album art.png">
+            </div>
+        </nav>
+        <main class="main-content">
+            <div class="main-content-1">
+                <img src="./Assets/스크린샷 2021-03-16 오후 4.04 2.png" alt="album-pic">
+                <div class="headings">
+                    <p>PLAYLIST</p>
+                    <h1>Pop Right Now</h1>
+                    <p>Pop Right Now</p>
+                    <p>
+                        <span>Spotify</span> &#x2022 860,305 likes &#x2022 100 songs, 5 hr 5 min
+                    </p>
+                </div>
+            </div>
+            <div class="main-content-2">
+                <div class="play-fav-more">
+                    <img src="./Assets/thumb_play.svg">
+                    <img src="./Assets/hollow heart 2.svg">
+                    <img src="./Assets/more_big.svg">
+                </div>
+                <!-- song List -->
+                <div class="row row-head">
+                    <p class="col-num">#</p>
+                    <p class="col-title">Title</p>
+                    <p class="col-album">Album</p>
+                    <p class="col-date">Date added</p>
+                    <p class="col-duration">Duration</p>
+                </div>
+                <div class="row row-data">
+                    <div class="col-num">
+                        <img src="./Assets/Polygon-2.svg" style="width: fit-content;">
+                    </div>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 9.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">2</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">3</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">4</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">5</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">6</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">7</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">8</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">9</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-data">
+                    <p class="col-num">10</p>
+                    <div class="col-title">
+                        <div class="title-data">
+                            <img src="./Assets/Rectangle 20.png" width="50" height="50px">
+                            <div>
+                                <h4>We’re Good</h4>
+                                <p>Dua Lipa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-album">Future Nostalgia (The Moonlight Edition)</p>
+                    <p class="col-date">2 weeks ago</p>
+                    <div class="col-duration">
+                        <div class="duration-data">
+                            <img src="./Assets/ic-heart.svg">
+                            <p>2:45</p>
+                            <img src="./Assets/more_big.svg" width="30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+    <!-- player section -->
+    <div class="player">
         <div class="player-left">
-          <img src="./Assets/song-pic2.png">
-          <div class="current-song">
-            <h3>Hold On</h3>
-            <p>Justin Bieber</p>
-          </div>
-          <img src="./Assets/ic-heart.svg">
-          <img src="./Assets/ic-pip.svg">
+            <img src="./Assets/song-pic2.png">
+            <div class="current-song">
+                <h3>Hold On</h3>
+                <p>Justin Bieber</p>
+            </div>
+            <img src="./Assets/ic-heart.svg">
+            <img src="./Assets/ic-pip.svg">
         </div>
         <div class="player-center">
-          <div class="player-control">
-            <img src="./Assets/raphael_shuffle.svg">
-            <img src="./Assets/bx_bx-skip-previous.svg">
-            <img src="./Assets/gridicons_play.svg">
-            <img src="./Assets/bx_bx-skip-next.svg">
-            <img src="./Assets/repeat.svg">
-          </div>
-          <div class="player-timeline">
-            <span>2:11</span>
-            <input type="range" class="range-slider1" minlength="1" maxlength="100" value="80">
-            <span>2:42</span>
-          </div>
+            <div class="player-control">
+                <img src="./Assets/raphael_shuffle.svg">
+                <img src="./Assets/bx_bx-skip-previous.svg">
+                <img src="./Assets/gridicons_play.svg">
+                <img src="./Assets/bx_bx-skip-next.svg">
+                <img src="./Assets/repeat.svg">
+            </div>
+            <div class="player-timeline">
+                <span>2:11</span>
+                <input type="range" class="range-slider1" minlength="1" maxlength="100" value="80">
+                <span>2:42</span>
+            </div>
         </div>
         <div class="player-right">
-          <img src="./Assets/carbon_query-queue.svg">
+            <img src="./Assets/carbon_query-queue.svg">
             <img src="./Assets/multi-device.png" height="18px" style="opacity: 0.7;">
-          <img src="./Assets/speaker.svg">
-          <input type="range" class="range-slider2" minlength="1" maxlength="100" value="72">
+            <img src="./Assets/speaker.svg">
+            <input type="range" class="range-slider2" minlength="1" maxlength="100" value="72">
         </div>
-      </div>
-      
     </div>
-  </body>
+</body>
+
 </html>

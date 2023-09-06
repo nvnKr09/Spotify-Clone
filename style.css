@@ -90,6 +90,7 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  padding-top: 10px;
 }
 .icon-links {
   display: flex;
@@ -315,12 +316,15 @@ margin-block: 4px;
 }
 .range-slider1::-webkit-slider-thumb{
   -webkit-appearance: none;
-  appearance: none;
   width: 5px;
   height: 5px;
   background: #C4C4C4;
   box-shadow: -403px 0 0 400px #C4C4C4;
   border-radius: 2.5px;
+}
+.range-slider1:hover::-webkit-slider-thumb{
+  background: var(--green);
+  box-shadow: -403px 0 0 400px var(--green);
 }
 .range-slider2{
   -webkit-appearance: none;
@@ -340,6 +344,10 @@ margin-block: 4px;
   background: #C4C4C4;
   box-shadow: -303px 0 0 300px #C4C4C4;
   border-radius: 2.5px;
+}
+.range-slider2:hover::-webkit-slider-thumb{
+  background: var(--green);
+  box-shadow: -403px 0 0 400px var(--green);
 }
 /* playing-on */
 .playing-on{
